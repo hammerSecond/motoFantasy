@@ -1,20 +1,20 @@
-#mainHeader{
-    width: 100vw;
-    background-color: rgba(28,33,40,255);
+#mainHeader {
+  width: 100vw;
+  background-color: rgba(28, 33, 40, 255);
 }
-#headerSection{
-    margin: auto;
-    display: flex;
-    width: 95%;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
+#headerSection {
+  margin: auto;
+  display: flex;
+  width: 95%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
 }
-#mainTitle{
-    font-size: 3rem;
+#mainTitle {
+  font-size: 3rem;
 }
-#logSection{
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
+#logSection {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
 }

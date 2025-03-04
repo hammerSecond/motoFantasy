@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { ChampionshipCardComponent } from '../championship-card/championship-card.component';
 
 @Component({
   selector: 'main-content',
-  imports: [],
+  imports: [ChampionshipCardComponent],
   templateUrl: './main-content.component.html',
-  styleUrl: './main-content.component.css'
+  styleUrl: './main-content.component.css',
 })
-export class MainContentComponent {
-
-}
+export class MainContentComponent {}
