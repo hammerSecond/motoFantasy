@@ -11,7 +11,7 @@
   align-items: center;
   justify-items: center;
 }
-.positionLogo{
+.positionLogo {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -19,14 +19,22 @@
 .currencyContainer {
   display: flex;
   justify-content: center;
-  gap: 4px
+  gap: 4px;
 }
-.championshipPosition{
+.championshipPosition {
   font-size: 2.5rem;
 }
-.championshipName{
+.championshipName {
   font-size: 1.3rem;
 }
-.currencyContainer{
+.currencyContainer {
   font-size: 1.3rem;
+}
+.championshipLogo{
+  width: 80px;
+  height: 80px;
+}
+.currencyIcon{
+  width: 16px;
+  height: 16px;
 }
