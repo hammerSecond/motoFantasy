@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ChampionshipCardComponent } from '../championship-card/championship-card.component';
 
+
 @Component({
   selector: 'main-content',
   imports: [ChampionshipCardComponent],
