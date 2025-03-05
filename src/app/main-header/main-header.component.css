@@ -9,9 +9,11 @@
   height: 10vh;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 #mainTitle {
   font-size: 3rem;
+  color: hsl(0, 0%, 96%);
 }
 #logSection {
   width: 200px;
