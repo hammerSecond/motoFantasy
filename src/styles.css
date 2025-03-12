@@ -7,3 +7,8 @@ img {
   width: fit-content;
   height: fit-content;
 }
+#mainContent {
+  width: 100vw;
+  min-height: 80vh;
+  color: hsl(0, 0%, 96%);
+}
