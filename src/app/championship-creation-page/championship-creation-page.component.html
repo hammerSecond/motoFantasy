@@ -1,1 +1,24 @@
-<p>championship-creation-page works!</p>
+<section id="creatorSection">
+  <form action="" id="creatorForm">
+    <label for="name">Championship Name</label>
+    <input name="name" type="text">
+    <section id="classSection">
+        <label for="competition">Championship Class</label>
+        <section class="classSubSection">
+            <p>Prototypes</p>
+            <input type="radio" name="competition" id="Prototypes" value="prototypes">
+        </section>
+        <section class="classSubSection">
+            <p>Road Bikes</p>
+            <input type="radio" name="competition" id="Road Bikes" value="road">
+        </section>
+        <section class="classSubSection">
+            <p>Combined</p>
+            <input type="radio" name="competition" id="Combined" value="combined">
+        </section>
+    </section>
+    <label for="teams">Number of Teams</label>
+    <input name="teams" type="number">
+    <button class="button is-success is-dark">Enter</button>
+  </form>
+</section>

@@ -1,17 +1,17 @@
 <section id="registerSection">
   <form id="registerForm" action="">
-    <p>Username</p>
-    <input type="text" placeholder="" />
-    <p>Email</p>
-    <input type="text" placeholder="" />
-    <p>Password</p>
-    <input type="password" />
-    <p>Repeat password</p>
-    <input type="password" />
+    <label for="username">Username</label>
+    <input name="username" type="text" placeholder="" />
+    <label for="email">Email</label>
+    <input name="email" type="text" placeholder="" />
+    <label for="password">Password</label>
+    <input name="password" type="password" />
+    <label for="rPassword">Repeat password</label>
+    <input name="rPassword" type="password" />
     <section id="buttonSection">
       <button id="submit" class="button is-success is-dark">Register</button>
       <p>if you have already an account</p>
-      <a href="#" class="has-text-success">Log in</a>
+      <a [routerLink]="['/login']" class="has-text-success">Log in</a>
     </section>
   </form>
 </section>
