@@ -1,3 +1,4 @@
+/* ESTILOS DEL CONTENEDOR DE LA TARJETA DE CAMPEONATO */
 .customCard {
   width: 38vw;
   height: 10vh;
@@ -11,29 +12,34 @@
   align-items: center;
   justify-items: center;
 }
+/* CONTENEDOR DE LA POSICION EN EL CAMPEONATO Y EL LOGO DEL CAMPEONATO */
 .positionLogo {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+/* DINERO QUE TIENE EL USUARIO EN DICHO CAMPEONATO */
 .currencyContainer {
   display: flex;
   justify-content: center;
   gap: 4px;
+  font-size: 1.3rem;
+
 }
+/* POSICION EN EL CAMPEONATO */
 .championshipPosition {
   font-size: 2.5rem;
 }
+/* NOMBRE DEL CAMPEONATO */
 .championshipName {
   font-size: 1.3rem;
 }
-.currencyContainer {
-  font-size: 1.3rem;
-}
+/* LOGO DEL CAMPEONATO */
 .championshipLogo{
   width: 80px;
   height: 80px;
 }
+/* ICONO DE LA MONEDA UTILIZADA */
 .currencyIcon{
   width: 16px;
   height: 16px;

@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { ChampionshipCreationPageComponent } from './championship-creation-page/championship-creation-page.component';
 
+// RUTAS DEL PROYECTO
 export const routes: Routes = [
   {
     path: '',

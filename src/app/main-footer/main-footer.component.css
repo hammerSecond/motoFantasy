@@ -1,5 +1,6 @@
-#mainFooter{
-    background-color: rgba(28, 33, 40, 255);
-    height: 10vh;
-    width: 100vw;
+/* ESTILOS GENERALES DEL PIE DE PAGINA */
+#mainFooter {
+  background-color: rgba(28, 33, 40, 255);
+  height: 10vh;
+  width: 100vw;
 }

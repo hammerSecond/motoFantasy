@@ -1,8 +1,10 @@
+/* SECCION QUE CONTIENE EL BOTON DE INICIO Y EL LINK AL FORMULARIO DE REGISTRO */
 #buttonSection {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+/* SECCION QUE CONTIENE EL FORMULARIO */
 #loginSection {
   width: 100%;
   height: 80vh;
@@ -10,6 +12,7 @@
   align-items: center;
   justify-content: center;
 }
+/* FORMULARIO DE INICIO DE SESION */
 #loginForm {
   display: flex;
   flex-direction: column;

@@ -1,9 +1,12 @@
+<!-- CONTENIDO QUE VE UN USUARIO AL INICIAR SESION -->
 <div class="separator"></div>
 <section id="mainOptions">
+  <!-- CONTENEDOR CON LOS DIFERENTES CAMPEONATOS DE LOS QUE FORMA PARTE EL USUARIO -->
   <section class="container" id="continueChampionship">
     <div class="smallSeparator"></div>
     <championship-card></championship-card>
   </section>
+  <!-- LINKS AL FORMULARIO DE CREAR UN CAMPEONATO Y UNIRSE A UNO YA CREADO -->
   <a [routerLink]="['/create']" class="createLink">
     <section class="container" id="newChampionship">
       <p class="menuText">Create or join a championship</p>

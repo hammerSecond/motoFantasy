@@ -1,11 +1,15 @@
+<!-- ESTE COMPONENTE SE UTILIZA PARA TOMAR LOS DATOS DE CREACION DE UN CAMPEONATO -->
 <section id="creatorSection">
   <form action="" id="creatorForm">
     <label for="name">Championship Name</label>
     <input name="name" type="text" />
     <section id="classSection">
+      <!-- SE UTILIZAN ETIQUETAS label PARA GUARDAR LOS DIFERENTES DATOS -->
       <label for="competition">Championship Class</label>
+      <!-- CREAMOS UN CONTENEDOR CON grid UTILIZANDO LAS CLASES QUE APORTA BULMA -->
       <div class="fixed-grid has-3-cols">
         <section class="grid">
+          <!-- PARA CADA POSIBILIDAD CREAMOS UNA SECCION QUE CONTIENE EN SU INTERIOR UN radio Y UNA label, LA CUAL OCUPARA TODO EL CONTENIDO DE LA SECCION Y ACTIVARA EL RADIO CORRESPONDIENTE -->
           <section id="prototypeRad" class="cell">
             <label for="prototypes"></label>
             <p>Prototypes</p>
@@ -39,8 +43,9 @@
         </section>
       </div>
     </section>
+    <!-- CREAMOS UN CAMPO NUMERICO PARA ASIGNAR EL NUMERO DE EQUIPOS PARTICIPANTES -->
     <label for="teams">Number of Teams</label>
     <input name="teams" type="number" />
-    <button class="button is-success is-dark">Enter</button>
+    <input type="submit" value="Enter" class="button is-success is-dark">
   </form>
 </section>
