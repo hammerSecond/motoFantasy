@@ -11,41 +11,41 @@
         <section class="grid">
           <!-- PARA CADA POSIBILIDAD CREAMOS UNA SECCION QUE CONTIENE EN SU INTERIOR UN radio Y UNA label, LA CUAL OCUPARA TODO EL CONTENIDO DE LA SECCION Y ACTIVARA EL RADIO CORRESPONDIENTE -->
           <section id="prototypeRad" class="cell">
-            <label for="prototypes"></label>
-            <p>Prototypes</p>
             <input
-              type="radio"
-              name="competition"
-              id="prototypes"
-              value="prototypes"
+            type="radio"
+            name="competition"
+            id="prototypes"
+            value="prototypes"
             />
+            <label id="protoLabel" for="prototypes"></label>
+            <p>Prototypes</p>
           </section>
           <section id="roadRad" class="cell">
-            <label for="roadBikes"></label>
-            <p>Road Bikes</p>
             <input
-              type="radio"
-              name="competition"
-              id="roadBikes"
-              value="road"
+            type="radio"
+            name="competition"
+            id="roadBikes"
+            value="road"
             />
+            <label id="roadLabel" for="roadBikes"></label>
+            <p>Road Bikes</p>
           </section>
           <section id="combinedRad" class="cell">
-            <label for="combined"></label>
-            <p>Combined</p>
             <input
-              type="radio"
-              name="competition"
-              id="combined"
-              value="combined"
+            type="radio"
+            name="competition"
+            id="combined"
+            value="combined"
             />
+            <label id="combinedLabel" for="combined"></label>
+            <p>Combined</p>
           </section>
         </section>
       </div>
     </section>
     <!-- CREAMOS UN CAMPO NUMERICO PARA ASIGNAR EL NUMERO DE EQUIPOS PARTICIPANTES -->
     <label for="teams">Number of Teams</label>
-    <input name="teams" type="number" />
+    <input name="teams" type="number" min="1" />
     <input type="submit" value="Enter" class="button is-success is-dark">
   </form>
 </section>

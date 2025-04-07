@@ -11,7 +11,7 @@
     <label for="rPassword">Repeat password</label>
     <input name="rPassword" type="password" />
     <section id="buttonSection">
-      <button id="submit" class="button is-success is-dark">Register</button>
+      <button id="submit" class="button is-success is-dark" [routerLink]="['/home']">Register</button>
       <p>if you have already an account</p>
       <a [routerLink]="['/login']" class="has-text-success">Log in</a>
     </section>

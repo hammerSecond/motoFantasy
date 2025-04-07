@@ -6,7 +6,7 @@
     <label for="password">Password</label>
     <input name="password" type="password" />
     <section id="buttonSection">
-      <button id="submit" class="button is-success is-dark">Sign In</button>
+      <button id="submit" class="button is-success is-dark" [routerLink]="['/home']">Sign In</button>
       <p>Don't have an account?</p>
       <a [routerLink]="['/register']" class="has-text-success">Register</a>
     </section>

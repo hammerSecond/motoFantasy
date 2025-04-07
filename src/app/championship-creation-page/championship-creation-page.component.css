@@ -37,8 +37,24 @@
 .cell label {
   position: absolute;
   left: 0;
+  top: 0;
   width: 20vh;
-  height: 5vh;
+  height: 4.8vh;
+  z-index: 0;
+}
+#protoLabel {
+  border-bottom-left-radius: 18px;
+}
+#roadLabel {
+  width: 19.4vh;
+}
+#combinedLabel {
+  width: 19.8vh;
+  border-bottom-right-radius: 18px;
+}
+.cell p {
+  position: relative;
+  z-index: 1;
 }
 .cell input:checked + label {
   background-color: rgb(28, 84, 60);
