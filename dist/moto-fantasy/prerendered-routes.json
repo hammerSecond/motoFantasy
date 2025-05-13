@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/": {},
+    "/create": {},
+    "/home": {},
+    "/login": {},
+    "/register": {}
+  }
+}
